@@ -6,17 +6,20 @@ import Services from './Components/Services';
 import Contact from './Components/Contact';
 import Policy from './Components/Policy';
 import Error from './Components/Error';
+import List from './Components/List';
 
 function App() {
   return (
     <>
+    
 <Router>
+<List />
   <Routes>
     <Route exact path = "/" element={<Home />}/>
-    <Route path = "/About" element={<About />}/>
-    <Route path = "/Services" element={<Services />}/>
-    <Route path = "/Contact" element={<Contact />}/>
-    <Route path = "/Policy" element={<Policy />}/>
+    <Route path = "/about" element={<About />}/>
+    <Route path = "/services" element={<Services />}/>
+    <Route path = "/contact" element={<Contact />}/>
+    <Route path = "/policy" element={<Policy />}/>
     <Route path= "*" element={<Error />}/>
   </Routes>
 </Router>
