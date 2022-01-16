@@ -1,106 +1,88 @@
 :root {
-    --mainColor: #FDB827;
-    
+  --mainColor: #fdb827;
 }
 
 header {
-    background-color: var(--mainColor);
+  background-color: var(--mainColor);
 }
 
 .container {
-    width: 95%;
-    /* background-color: rgb(255, 0, 0); */
-    margin: 0 auto;
-    max-width: 1200px;
-    position: static; 
+  width: 95%;
+  /* background-color: rgb(255, 0, 0); */
+  margin: 0 auto;
+  max-width: 1200px;
+  position: static;
 }
 
 .logo {
-   width: 70px;
-   height: auto;
-   padding: 0.2rem 1rem;
-   margin-left: 1rem;
-} 
+  width: 170px;
+  height: auto;
+  padding: 0.2rem 1rem;
+  margin-left: 1rem;
+}
 
 .container-flex {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .list {
-    display: flex;
+  display: flex;
 }
 
 .activeLink {
-    margin-left: 2rem;
-    color: #542583;
-    text-decoration: none;
-    border-bottom: .1em double #542583;
-    font-size: 1.5rem; font-family: 'Be Vietnam Pro', sans-serif;
+  margin-left: 2rem;
+  color: #542583;
+  text-decoration: none;
+  border-bottom: 0.1em double #542583;
+  font-size: 1.5rem;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 600;
 }
 .inactiveLink {
-    margin-left: 2rem;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    font-size: 1.5rem; font-family: 'Be Vietnam Pro', sans-serif;
+  margin-left: 2rem;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 600;
 }
 
 .icon {
-    color:white;
-    font-size: 1.7rem !important;
-    margin-right: 1em;
-    
+  color: white;
+  font-size: 1.7rem !important;
+  margin-right: 1em;
 }
 
 @media screen and (max-width: 768px) {
-html{
+  html {
     font-size: 13px;
-}
-.icon {
-        
-    margin-right: 1em; 
-}
-        
-.container-flex {
-    flex-direction: column;
-}
+  }
+  .icon {
+    margin-right: 1em;
+  }
 
-.logo {
-    width: 150px
-}
+  .container-flex {
+    flex-direction: column;
+  }
+
+  .logo {
+    width: 150px;
+  }
 }
 
 @media screen and (max-width: 568px) {
-html {
+  html {
     font-size: 11px;
-}
-.list {
+  }
+  .list {
     flex-direction: column;
-}
-.logo {
-    width: 100px;
-}
-.icon {
+  }
+  .logo {
+    width: 130px;
+  }
+  .icon {
     margin: 1em;
+  }
 }
-}
-    
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
