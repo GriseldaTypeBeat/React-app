@@ -1,0 +1,38 @@
+.mainSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.contentBox {
+  width: 40%;
+}
+
+.contentBox h1 {
+  font-size: 5.2rem;
+  color: #fdb827;
+  font-family: "Bebas Neue", cursive;
+}
+
+.contentBox p {
+  font-size: 2.2rem;
+  color: #542583;
+  font-family: "Bebas Neue", cursive;
+}
+
+.imgContainer {
+  width: 30%;
+  position: relative;
+  top: 30px;
+}
+
+@media screen and (max-width: 900px) {
+  html {
+    font: size 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    flex-direction: column;
+  }
+}

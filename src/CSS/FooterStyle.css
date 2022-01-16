@@ -1,0 +1,38 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  background-color: #fdb827;
+  width: 100%;
+  padding: 0.5em;
+}
+
+.line {
+  width: 30%;
+  color: #542583;
+}
+hr {
+  margin-bottom: 0.5em;
+}
+
+.icon {
+  margin-right: 1em;
+}
+
+.copyright p {
+  text-align: center;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 300;
+  color: #542583;
+}
+
+@media screen and (max-width: 1024px) {
+  .line {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  hr {
+    display: none;
+  }
+}
