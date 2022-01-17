@@ -1,8 +1,13 @@
 const Services = () => {
   return (
-    <div className="Services">
+    <>
       <h1>Services</h1>
-    </div>
+      <div className="services">
+        <div className="card">
+          <h2>Web Dev</h2>
+        </div>
+      </div>
+    </>
   );
 };
 

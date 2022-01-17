@@ -20,19 +20,35 @@
 }
 
 .imgContainer {
-  width: 30%;
+  width: 31%;
   position: relative;
   top: 30px;
 }
 
 @media screen and (max-width: 900px) {
   html {
-    font: size 14px;
+    font: size 11px;
+  }
+
+  .imgContainer {
+    width: 200px;
+    height: auto;
   }
 }
 
 @media screen and (max-width: 768px) {
   html {
+    font-size: 11px;
+  }
+  .mainSection {
     flex-direction: column;
+  }
+  .contentBox {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .imgContainer {
+    width: 100%;
   }
 }
